@@ -9,9 +9,12 @@
 *.ietf.org
 *.schema.org
 *.youtu.be
+*.doubleclick.net
+*.googleadservices.com
 *.google.cn
 *.googleapps.com
 *.thinkwithgoogle.com
+*.withgoogle.com
 *.fbcdn.net
 *.flickr.com
 *.youtube-nocookie.com
@@ -100,7 +103,6 @@
 *.telegra.ph
 *.oneplus.net
 *.telegram.org
-*.typekit.net
 *.cisco.com
 *.g.co
 *.amazon.com
@@ -140,7 +142,6 @@
 *.ubi.com
 *.ubisoft.com
 *.wonderpush.com
-*.akamaihd.net
 *.goo.gl
 *.similarweb.com
 *.similarcdn.com
@@ -165,6 +166,7 @@
 *.akamaihd.net
 *.jquery.com
 *.ubi.li
+*.github.blog
 
 ; ==============================================================================
 ; ==============================================================================

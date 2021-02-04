@@ -6,7 +6,7 @@
 * Add HTTP2 HPACK Encoding Support.
 * Add Dynamic TLS Record support.
 
-Test pass: 1.19.5
+Test pass: 1.19.6
 
 ### nginx_with_quic.patch
 * Add HTTP3(QUIC) Support.
@@ -14,14 +14,14 @@ Test pass: 1.19.5
 * Add HTTP2 HPACK Encoding Support.
 * Add Dynamic TLS Record support.
 
-Test pass: 1.19.5 with [cloudflare/quiche c6fa418](https://github.com/cloudflare/quiche/tree/c6fa418da4f1343d3c02b51542715bd145e954ac)
+Test pass: 1.19.6 with [cloudflare/quiche 5092e4d](https://github.com/cloudflare/quiche/tree/5092e4d1e8ae2773a56eddda6a8205f5e65b4b37)
 
 ### use_openssl_md5_sha1.patch
 * Use the OpenSSL library instead of the Nginx original function.
 * Repack it because "patch unexpectedly ends in middle of line".
     - Thanks [@CarterLi](https://github.com/kn007/patch/issues/5)
 
-Test pass: 1.19.5
+Test pass: 1.19.6
 
 ### Enable_BoringSSL_OCSP.patch
 * For BoringSSL support OCSP stapling.
@@ -30,7 +30,7 @@ Test pass: 1.19.5
     - Auto-rebuild OCSP stapling file with shell and atd(at cron), you can read this [article](https://kn007.net/topics/let-nginx-support-ocsp-stapling-when-using-boringssl/)(Maybe you need a translation tool).
     - Thanks [@CarterLi](https://github.com/kn007/patch/issues/4).
 
-Test pass: 1.19.5
+Test pass: 1.19.6
 
 ### nginx_with_spdy.patch (Deprecated)
 * Add SPDY Support.
@@ -48,6 +48,14 @@ Test pass: 1.17.9
 Test pass: 1.17.9 with [cloudflare/quiche 9a8b3b](https://github.com/cloudflare/quiche/tree/9a8b3b12d007715cd4cc254362db51d5a01de9f2)
 
 ## Other
+
+### ffmpeg-let-rtmp-flv-support-hevc-h265-opus.patch
+* FLV/RTMP Extensions For FFmpeg.
+    - Add FLV Encode/Decode with H.265/HEVC & OPUS Codec Support.
+    - Add RTMP Stream Push with H.265/HEVC & OPUS Codec Support.
+    - Thanks [@xia-chu](https://github.com/xia-chu/ZLMediaKit/wiki/RTMP%E5%AF%B9H265%E5%92%8COPUS%E7%9A%84%E6%94%AF%E6%8C%81).
+
+Test pass: 4.3.1
 
 ### dropbox_fs_fix.patch
 * For Dropbox Linux users. This patch could let official python script auto-load `libdropbox_fs_fix.so` library before start dropboxd.
