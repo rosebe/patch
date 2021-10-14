@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2021/8/25
+; Date: 2021/10/12
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 
@@ -8,6 +8,8 @@
 
 u2.dmhy.org
 *.m-team.cc
+seed.groueta.cc
+*.open.cd
 
 *.ietf.org
 *.schema.org
@@ -193,6 +195,8 @@ u2.dmhy.org
 *.soundcloud.com
 *.sndcdn.com
 *.dl.sourceforge.net
+*.dmm.co.jp
+*.gifyu.com
 
 ; ==============================================================================
 ; ==============================================================================
