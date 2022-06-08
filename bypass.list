@@ -1,12 +1,12 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2022/04/09
+; Date: 2022/04/15
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 
 ; https://raw.githubusercontent.com/kn007/patch/master/bypass.list
 
-
+*.postfix.org
 *.ietf.org
 *.schema.org
 *.youtu.be
@@ -90,6 +90,8 @@
 *.bbc.co.uk
 *.travis-ci.org
 *.*.google
+*.goog
+*.pki.goog
 *.cdninstagram.com
 *.wordpress.org
 *.slideshare.net
@@ -227,6 +229,7 @@
 *.boost.org
 *.tarolink.top
 *.o--o.xyz
+*.imgbb.com
 *.ibb.co
 *.z4a.net
 *.iili.io
@@ -248,6 +251,16 @@
 *.openstreetmap.org
 *.vatsim.net
 *.navigraph.com
+*.gog-statics.com
+*.gog.com
+*.zendesk.com
+*.zdassets.com
+*.avsim.com
+*.sda1.dev
+*.sl.al
+*.ccimg.xyz
+*.admod.com
+*.web.dev
 
 ; ==============================================================================
 ; ==============================================================================

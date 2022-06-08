@@ -1,0 +1,45 @@
+--- a   2022-05-20 07:38:48.486091422 +0800
++++ b   2022-05-20 07:38:58.000336930 +0800
+@@ -1,15 +1,14 @@
+ #!/bin/sh
+
++cycle=30
++tally=0
+ status="0"
+-count=`uci get mwan3.wan.count 2>/dev/null`
+-timeout=`uci get mwan3.wan.timeout 2>/dev/null`
+-track_ip=`uci get mwan3.wan.track_ip 2>/dev/null`
+-[ -z "$count" ] && count="1"
+-[ -z "$timeout" ] && timeout="2"
+-[ -z "$track_ip" ] && track_ip="8.8.4.4 8.8.8.8 208.67.222.222 208.67.220.220"
++count="1"
++timeout="2"
++track_ip="223.5.5.5 180.76.76.76 119.29.29.29 114.114.114.114 1.1.1.1 8.8.8.8 4.2.2.1 208.67.222.222"
+
+ mt1300_led off
+-mt1300_led blue_breath daemon
++mt1300_led blue_flash
+
+ for ip in $track_ip;
+ do
+@@ -25,8 +24,19 @@
+ do
+         if [ "$status" = "0" ];then
+                 mt1300_led blue_breath daemon
++                tally=0
+         else
+-                mt1300_led white daemon
++                if [ -d /sys/class/net/tun* ]; then
++                        tally=0
++                        mt1300_led both daemon
++                else
++                        let tally+=1
++                        if [ $tally -lt $cycle ];then
++                                mt1300_led white daemon
++                        else
++                                mt1300_led off
++                        fi
++                fi
+         fi
+
+         sleep 5
