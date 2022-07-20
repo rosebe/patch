@@ -83,6 +83,8 @@ Mods:
   Name: Map Preview_zh
 - Id: sdknm2.pawnrenderpatchforhd
   Name: Pawn Render Patch for HD
+- Id: murmur.threatpointcap
+  Name: Threat Point Cap
 - Id: derekbickley.ltocolonygroupsfinal
   Name: '[LTO] Colony Groups'
 - Id: zh.ltocolonygroupsfinal
@@ -205,6 +207,10 @@ Mods:
   Name: Drop All Inventory
 - Id: tikubonn.dontblockdoor
   Name: DontBlockDoor
+- Id: mlie.nomoreautoroof
+  Name: NoMoreAutoroof (Continued)
+- Id: andery233xj.mod.removehealthdraw
+  Name: Remove Health Draw
 - Id: legodude17.smartdecon
   Name: Smarter Deconstruction and Mining
 - Id: oninotamasi.legodude17.smartdecon.zh
@@ -271,6 +277,8 @@ Mods:
   Name: Search and Destroy
 - Id: murmur.isid
   Name: Infestations Spawn in Darkness
+- Id: gorymoon.closeall
+  Name: CloseAll
 - Id: mlie.dismisstrader
   Name: Dismiss Trader (Continued)
 - Id: zephyr.dismisstraderzh
