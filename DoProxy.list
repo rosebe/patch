@@ -70,6 +70,7 @@ DOMAIN-SUFFIX,googlecode.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,onedriver.com
 DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,*.wikimedia.org
 DOMAIN-SUFFIX,nodequery.com
 DOMAIN-SUFFIX,androidfilehost.com
 DOMAIN-SUFFIX,appspot.com
@@ -219,6 +220,7 @@ DOMAIN-SUFFIX,netcdn.space
 DOMAIN-SUFFIX,boost.org
 DOMAIN-SUFFIX,tarolink.top
 DOMAIN-SUFFIX,o--o.xyz
+DOMAIN-SUFFIX,simgbb.com
 DOMAIN-SUFFIX,imgbb.com
 DOMAIN-SUFFIX,ibb.co
 DOMAIN-SUFFIX,z4a.net
@@ -270,6 +272,9 @@ DOMAIN-SUFFIX,021jf.com
 DOMAIN-SUFFIX,pic599.net
 DOMAIN-SUFFIX,98tuch.net
 DOMAIN-SUFFIX,postto.me
+DOMAIN-SUFFIX,aspnetcdn.com
+DOMAIN-SUFFIX,netlify.app
+DOMAIN-SUFFIX,netlify.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleapis.com
