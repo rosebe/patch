@@ -6,20 +6,29 @@ Mods:
 - Id: ludeon.rimworld
   Name: 核心
   SteamWorkshopId: 0
-- Id: automatic.startupimpact
-  Name: Startup impact
-  SteamWorkshopId: 1684944322
+- Id: arandomkiwi.rimsaves
+  Name: RimSaves
+  SteamWorkshopId: 1713367505
+- Id: rwzh.chinesepack.rimsaves
+  Name: RimSaves_zh
+  SteamWorkshopId: 2199383843
 - Id: fluffy.modmanager
   Name: Mod Manager
   SteamWorkshopId: 1507748539
 - Id: imranfish.xmlextensions
   Name: XML Extensions
   SteamWorkshopId: 2574315206
+- Id: bs.betterlog
+  Name: Better Log - Fix your errors with style
+  SteamWorkshopId: 2772559481
 - Id: ludeon.rimworld.royalty
   Name: 皇权
   SteamWorkshopId: 0
 - Id: ludeon.rimworld.ideology
   Name: 文化
+  SteamWorkshopId: 0
+- Id: ludeon.rimworld.biotech
+  Name: 生物技术
   SteamWorkshopId: 0
 - Id: unlimitedhugs.hugslib
   Name: HugsLib
@@ -28,11 +37,8 @@ Mods:
   Name: HugsLib_zh
   SteamWorkshopId: 1798770746
 - Id: trinity.runtimegcupdated
-  Name: RuntimeGC [1.3]
+  Name: RuntimeGC [1.4]
   SteamWorkshopId: 2559582557
-- Id: lazycat.nopseudotranslate
-  Name: No Pseudo Translate无开发者乱码
-  SteamWorkshopId: 2808842065
 - Id: madeline.modmismatchformatter
   Name: Better ModMismatch Window
   SteamWorkshopId: 1872244972
@@ -63,21 +69,36 @@ Mods:
 - Id: vanillaexpanded.vfepower
   Name: Vanilla Furniture Expanded - Power
   SteamWorkshopId: 2062943477
-- Id: rwzh.chinesepack.vfepower
-  Name: Vanilla_Furniture_Expanded_Power_zh
-  SteamWorkshopId: 2067012093
+- Id: rwzh.chinesepack.vfe
+  Name: Vanilla_Furniture_Expanded_zh_pack
+  SteamWorkshopId: 2033672219
 - Id: vanillaexpanded.vcef
   Name: Vanilla Fishing Expanded
   SteamWorkshopId: 1914064942
 - Id: rwzh.chinesepack.vcef
   Name: Vanilla_Fishing_Expanded_zh
   SteamWorkshopId: 2035866747
+- Id: unofficial.morepracticaltraits
+  Name: More Practical Traits - unofficial update
+  SteamWorkshopId: 2893524668
 - Id: moretraitslots.kv.rw
-  Name: '[KV] More Trait Slots'
-  SteamWorkshopId: 1508292711
-- Id: moretraitslots.kv.rw.zh
-  Name: '[KV] More Trait Slots 简繁中文汉化 更多特性槽'
-  SteamWorkshopId: 2746343336
+  Name: '[KV] More Trait Slots [1.4]'
+  SteamWorkshopId: 2878346573
+- Id: zh.moretraitslotstaranchuk.only
+  Name: '[KV] More Trait Slots [1.4] -- 更多特性槽1.4 简体汉化包'
+  SteamWorkshopId: 2878778439
+- Id: darkborderman.moretraitgenes
+  Name: More Genes
+  SteamWorkshopId: 2878539467
+- Id: zh.moretraitgenes
+  Name: More Genes简体中文汉化包
+  SteamWorkshopId: 2884401339
+- Id: gloomy.gloomyfacemk2.1.4
+  Name: Gloomy Face mk2
+  SteamWorkshopId: 2890566247
+- Id: nals.chibifacefemale
+  Name: '[NL] Chibi Face Female only'
+  SteamWorkshopId: 1540475285
 - Id: vanillaexpanded.vhe
   Name: Vanilla Hair Expanded
   SteamWorkshopId: 1888705256
@@ -87,21 +108,33 @@ Mods:
 - Id: rimsenal.hair
   Name: Rimsenal - Hair pack
   SteamWorkshopId: 725949967
-- Id: won.hair
-  Name: Won hair_men
-  SteamWorkshopId: 1879950403
-- Id: won2.hair
-  Name: 'Won hair_women '
-  SteamWorkshopId: 1886150617
-- Id: mlie.morepracticaltraits
-  Name: More Practical Traits (Continued)
-  SteamWorkshopId: 2576594499
+- Id: jintuzilamian.hairstyle.afumenshairstyles
+  Name: AFU男士发型_Men's hairstyles
+  SteamWorkshopId: 2072106893
+- Id: jintuzilamian.hairstyle.afuwomenshairstyles
+  Name: AFU女士发型_Women's hairstyles
+  SteamWorkshopId: 2020779666
+- Id: nals.facialanimation
+  Name: '[NL] Facial Animation - WIP'
+  SteamWorkshopId: 1635901197
+- Id: oppey.eyegenecolors
+  Name: '[BIOTECH] Facial Animation - EyeGenes '
+  SteamWorkshopId: 2893193835
+- Id: pzqaks.eyegenecolors.zh
+  Name: '[BIOTECH] Facial Animation - EyeGenes——动态表情用的眼睛颜色简体汉化'
+  SteamWorkshopId: 2895979302
+- Id: oppey.goawayeyestrain
+  Name: Go Away Eye Strain!
+  SteamWorkshopId: 2895295315
+- Id: agentblac.makepawnsprisoners
+  Name: 1.4 - Imprisonment On The Go! (Make Pawns Prisoners Without Beds)
+  SteamWorkshopId: 1203903378
+- Id: wrk.woundremover
+  Name: 1.3/Ideology Wound Remover
+  SteamWorkshopId: 2839444849
 - Id: void.charactereditor
   Name: Character Editor
   SteamWorkshopId: 1874644848
-- Id: edb.preparecarefully
-  Name: EdB Prepare Carefully
-  SteamWorkshopId: 735106432
 - Id: sarg.smartspeed
   Name: Smart Speed
   SteamWorkshopId: 1504723424
@@ -111,18 +144,21 @@ Mods:
 - Id: rwzh.chinesepack.mapdesigner
   Name: Map_Designer_zh
   SteamWorkshopId: 2115722898
-- Id: unlimitedhugs.mapreroll
-  Name: Map Reroll
-  SteamWorkshopId: 761315214
 - Id: m00nl1ght.mappreview
   Name: Map Preview
   SteamWorkshopId: 2800857642
 - Id: zh.m00nl1ght.mappreview
   Name: Map Preview_zh
   SteamWorkshopId: 2804421885
-- Id: sdknm2.pawnrenderpatchforhd
-  Name: Pawn Render Patch for HD
-  SteamWorkshopId: 2539273760
+- Id: m00nl1ght.geologicallandforms
+  Name: Geological Landforms
+  SteamWorkshopId: 2773943594
+- Id: zh.m00nl1ght.geologicallandforms
+  Name: Geological Landforms_zh
+  SteamWorkshopId: 2774968010
+- Id: ih.clean.textures
+  Name: Clean Textures
+  SteamWorkshopId: 2865361569
 - Id: murmur.threatpointcap
   Name: Threat Point Cap
   SteamWorkshopId: 2380491067
@@ -138,57 +174,81 @@ Mods:
 - Id: chinesetranslation.whw.jobinbar
   Name: Job In Bar 个人简中汉化
   SteamWorkshopId: 2625438810
-- Id: nals.facialanimation
-  Name: '[NL] Facial Animation - WIP'
-  SteamWorkshopId: 1635901197
+- Id: dubwise.dubsmintminimap
+  Name: Dubs Mint Minimap
+  SteamWorkshopId: 1662119905
 - Id: jaxe.bubbles
   Name: Interaction Bubbles
   SteamWorkshopId: 1516158345
 - Id: jaxe.bubbles.zh.hc
   Name: Interaction Bubbles_zh
   SteamWorkshopId: 2707586104
-- Id: jpt.speakup
-  Name: SpeakUp
-  SteamWorkshopId: 2502518544
-- Id: zh.speakup
-  Name: SpeakUp简体中文汉化包
-  SteamWorkshopId: 2566699887
 - Id: jaxe.rimhud
   Name: RimHUD
   SteamWorkshopId: 1508850027
 - Id: shouer.chinesepack.rimhud
   Name: RimHUD_zh
   SteamWorkshopId: 1928161832
+- Id: creeper.betterinfocard
+  Name: BetterInfoCard
+  SteamWorkshopId: 2890920739
 - Id: kahdeg.killfeed
   Name: Killfeed
   SteamWorkshopId: 1362098265
-- Id: automatic.recipeicons
-  Name: Recipe icons
-  SteamWorkshopId: 1616643195
 - Id: dubwise.dubsappareltweaks
   Name: Dubs Apparel Tweaks
   SteamWorkshopId: 2296697286
 - Id: rwzh.chinesepack.dubsappareltweaks
   Name: Dubs_Apparel_Tweaks_zh
   SteamWorkshopId: 2327363931
+- Id: avilmask.commonsense
+  Name: Common Sense
+  SteamWorkshopId: 1561769193
+- Id: dingo.lessrebuff
+  Name: Less Rebuff
+  SteamWorkshopId: 774543761
+- Id: neronix17.tweaksgalore
+  Name: Tweaks Galore
+  SteamWorkshopId: 2695164414
+- Id: bustedbunny.chooseyourrecipe
+  Name: Choose Your Recipe
+  SteamWorkshopId: 2613112847
+- Id: mlie.configurableroomstats
+  Name: Configurable Room Stats (Continued)
+  SteamWorkshopId: 2896467431
 - Id: owlchemist.toggleableoverlays
   Name: Toggleable Overlays
   SteamWorkshopId: 2608654598
-- Id: zh.owlchemist.toggleableoverlays
-  Name: Toggleable Overlays_zh
-  SteamWorkshopId: 2625341507
 - Id: owlchemist.toggleablereadouts
   Name: Toggleable Readouts
   SteamWorkshopId: 2661792499
-- Id: pzqaks.toggleablereadouts.zh
-  Name: Toggleable Readouts简体中文汉化
-  SteamWorkshopId: 2668143192
+- Id: zh.owlchemist.toggleableseries
+  Name: Owlchemist - Toggleable Series_zh
+  SteamWorkshopId: 2768513554
+- Id: syrus.heatmap
+  Name: Heat Map (Continued)
+  SteamWorkshopId: 2552838384
 - Id: legodude17.qualcolor
   Name: Quality Colors
   SteamWorkshopId: 2420141361
-- Id: falconne.heatmap
-  Name: Heat Map
-  SteamWorkshopId: 947972722
+- Id: qualcolor.zh
+  Name: Quality Colors zh 简体中文汉化
+  SteamWorkshopId: 2891521968
+- Id: owlchemist.simplefx.vapor
+  Name: 'Simple FX: Vapor'
+  SteamWorkshopId: 2886571275
+- Id: owlchemist.simplefx.splashes
+  Name: 'Simple FX: Splashes'
+  SteamWorkshopId: 2889330414
+- Id: owlchemist.simplefx.smoke2
+  Name: 'Simple FX: Smoke'
+  SteamWorkshopId: 2574489704
+- Id: owlchemist.scatteredflames
+  Name: Scattered Flames
+  SteamWorkshopId: 2652749788
+- Id: owlchemist.scatteredflames.zh.hc
+  Name: Scattered Flames_zh
+  SteamWorkshopId: 2711236044
 - Id: smashphil.loadinginprogress
   Name: Loading In Progress
   SteamWorkshopId: 1975622772
@@ -207,51 +267,63 @@ Mods:
 - Id: tammybee.predatorhuntalert
   Name: Predator Hunt Alert
   SteamWorkshopId: 1537786185
-- Id: tammybee.restocknotification
-  Name: Restock Notification
-  SteamWorkshopId: 2079149222
+- Id: zilla.fertilityinfo
+  Name: Show Fertility on Health Tab
+  SteamWorkshopId: 2879306896
+- Id: kathanon.repairinthezone
+  Name: Repair in the Zone
+  SteamWorkshopId: 2798537004
 - Id: jp.adjacentlight
   Name: Adjacent Light
   SteamWorkshopId: 2517853803
 - Id: insertkey.itemlistselector
   Name: ItemListSelector
   SteamWorkshopId: 1522414793
-- Id: tradingspot.kv.rw
-  Name: '[KV] Trading Spot'
-  SteamWorkshopId: 1180719658
 - Id: timmyliang.tradehelper
   Name: TradeHelper
   SteamWorkshopId: 2113372560
+- Id: grizzlemethis.tradingspot.rw
+  Name: '[GMT] Trading Spot'
+  SteamWorkshopId: 2874517333
 - Id: smashphil.dropspot
   Name: Trade Ships Drop Spot
   SteamWorkshopId: 1969732297
+- Id: joseasoler.tradingoptions
+  Name: Trading Options
+  SteamWorkshopId: 2876541977
+- Id: zh.joseasoler.tradingoptions
+  Name: Trading Options-汉化
+  SteamWorkshopId: 2876724391
+- Id: tac.genetrader
+  Name: Gene Trader
+  SteamWorkshopId: 2886375137
+- Id: mlie.dismisstrader
+  Name: Dismiss Trader (Continued)
+  SteamWorkshopId: 2078518511
+- Id: zephyr.dismisstraderzh
+  Name: Dismiss Trader (Continued)简繁汉化
+  SteamWorkshopId: 2081531370
 - Id: hatena.animaldiscovery
   Name: Animal Discovery
   SteamWorkshopId: 2172166576
 - Id: merthsoft.designatorshapes
   Name: Designator Shapes
   SteamWorkshopId: 1235181370
-- Id: beibei.translationpack.designatorshapes
-  Name: Designator Shapes add Translation
-  SteamWorkshopId: 2521875632
 - Id: ogliss.wanderjoinsplus
   Name: WanderJoinsPlus
   SteamWorkshopId: 2177016016
 - Id: ogliss.rescueejoinsplus
   Name: RescueeJoinsPlus
   SteamWorkshopId: 2177170403
-- Id: vanya.tools.incidentpersonstat
-  Name: Incident Person Stat
-  SteamWorkshopId: 1414697588
+- Id: mlie.incidentpersonstat
+  Name: Incident Person Stat (Continued)
+  SteamWorkshopId: 2896052868
 - Id: brrainz.cameraplus
   Name: Camera+
   SteamWorkshopId: 867467808
 - Id: rwzh.chinesepack.cameraplus
   Name: Camera+_zh
   SteamWorkshopId: 1783453942
-- Id: indeed.stackxxl
-  Name: Stack XXL
-  SteamWorkshopId: 826366050
 - Id: fluffy.followme
   Name: Follow Me
   SteamWorkshopId: 715759739
@@ -270,23 +342,23 @@ Mods:
 - Id: thewirelord354.conduitdeconstruct
   Name: Conduit Deconstruct
   SteamWorkshopId: 838336462
-- Id: bob.draggablecornerss
-  Name: Draggable Corners
-  SteamWorkshopId: 2014036648
 - Id: leafzxg.masterofcooking
   Name: Master of Cooking
   SteamWorkshopId: 830545304
 - Id: leafzxg.masterofcrafting
   Name: Master of Crafting
   SteamWorkshopId: 848513545
-- Id: squirtingelephant.cofigurableroomstats
-  Name: Configurable Room Stats
-  SteamWorkshopId: 2019108633
+- Id: savestoragesettings.kv.rw
+  Name: '[KV] Save Storage, Outfit, Crafting, Drug, & Operation Settings [1.4]'
+  SteamWorkshopId: 0
+- Id: mlie.foodpoisoningstackfix
+  Name: Food Poisoning Stack Fix (Continued)
+  SteamWorkshopId: 2843483188
 - Id: frozensnowfox.filthvanisheswithrainandtime
   Name: '[FSF] Filth Vanishes With Rain And Time'
   SteamWorkshopId: 1508341791
 - Id: mario1.3patch.metaldontburn
-  Name: Metal Don't Burn (UNOFFICIAL 1.3 PATCH)
+  Name: Metal Don't Burn (UNOFFICIAL 1.4 PATCH)
   SteamWorkshopId: 2557145474
 - Id: chicken305.efficienlight
   Name: Chickens Efficient Light
@@ -294,8 +366,14 @@ Mods:
 - Id: telardo.dragselect
   Name: DragSelect
   SteamWorkshopId: 2599942235
+- Id: haecriver.injuredcarry
+  Name: Injured Carry
+  SteamWorkshopId: 2413690575
+- Id: dvs.norandomrelations
+  Name: No Random Relations
+  SteamWorkshopId: 2583377522
 - Id: alien.milkablemuffalo
-  Name: Milkable Muffalo [1.3]
+  Name: Milkable Muffalo
   SteamWorkshopId: 2019852283
 - Id: scherub.stonecuttingextended
   Name: Stonecutting Extended
@@ -303,24 +381,21 @@ Mods:
 - Id: automatic.prisonerbedsetowner
   Name: Set Owner for Prisoner Beds
   SteamWorkshopId: 2053931388
-- Id: captainmuscles.dropinventory
+- Id: kb.dropinventory
   Name: Drop All Inventory
-  SteamWorkshopId: 2336610918
+  SteamWorkshopId: 2882490442
 - Id: tikubonn.dontblockdoor
   Name: DontBlockDoor
   SteamWorkshopId: 1691076769
 - Id: mlie.nomoreautoroof
   Name: NoMoreAutoroof (Continued)
   SteamWorkshopId: 2026621806
-- Id: andery233xj.mod.removehealthdraw
-  Name: Remove Health Draw
-  SteamWorkshopId: 2558442803
 - Id: legodude17.smartdecon
   Name: Smarter Deconstruction and Mining
   SteamWorkshopId: 2398365712
-- Id: oninotamasi.legodude17.smartdecon.zh
-  Name: Smarter Deconstruction and Mining繁簡漢化
-  SteamWorkshopId: 2549780477
+- Id: legodude17.smartdecon.zh
+  Name: Smarter Deconstruction and Mining zh 简体中文
+  SteamWorkshopId: 2891998257
 - Id: dhultgren.smarterconstruction
   Name: Smarter Construction
   SteamWorkshopId: 2202185773
@@ -330,6 +405,9 @@ Mods:
 - Id: mlie.lessstupidromanceattempt
   Name: Less Stupid Romance Attempt (Continued)
   SteamWorkshopId: 2014603702
+- Id: mlie.billysimprovedcaravanformation
+  Name: Billy's Improved Caravan Formation (Continued)
+  SteamWorkshopId: 2068456092
 - Id: vanya.tools.bulkcarrier
   Name: Bulk Carrier
   SteamWorkshopId: 1428989232
@@ -339,9 +417,6 @@ Mods:
 - Id: fluffy.medicaltab
   Name: Medical Tab
   SteamWorkshopId: 715565817
-- Id: fluffy.pharmacist
-  Name: Pharmacist
-  SteamWorkshopId: 1365242717
 - Id: antaioz.modmedicinepatch
   Name: Mod Medicine Patch
   SteamWorkshopId: 1430084631
@@ -351,27 +426,30 @@ Mods:
 - Id: jp.perfectpathing
   Name: Perfect Pathfinding
   SteamWorkshopId: 2341486509
-- Id: jbloodthorn.nolazydoctors
-  Name: No Lazy Doctors
-  SteamWorkshopId: 2476396157
 - Id: telardo.nolaggybed
   Name: No Laggy Bed
   SteamWorkshopId: 2790250834
 - Id: uuugggg.sharetheload
   Name: Share The Load
   SteamWorkshopId: 1356838246
+- Id: uuugggg.sharetheload.zh
+  Name: Share The Load zh 简体中文补丁
+  SteamWorkshopId: 2892578913
+- Id: owlchemist.cleanpathfinding
+  Name: Clean Pathfinding
+  SteamWorkshopId: 2603765747
+- Id: owlchemist.cleanpathfinding.zh.hc
+  Name: Clean Pathfinding + Doorpathing_zh
+  SteamWorkshopId: 2711236834
 - Id: seekiworksmod.no11
   Name: Chop Wood with Other Skills
   SteamWorkshopId: 2811154414
-- Id: puremj.mjrimmods.vanillafix_mortarshellloading
+- Id: puremj.mjrimmods.vanillafixmortarshellloading
   Name: 'Vanilla Fix: Mortar Shell Loading'
   SteamWorkshopId: 2799902757
 - Id: puremj.mjrimmods.vanillafixhaulafterslaughter
   Name: 'Vanilla Fix: Haul After Slaughter'
   SteamWorkshopId: 2801452324
-- Id: improvedloadtransportpods.rw
-  Name: Improved Load Transport Pods
-  SteamWorkshopId: 1554201803
 - Id: puremj.mjrimmods.whileyouarenearby
   Name: While You Are Nearby
   SteamWorkshopId: 2784585275
@@ -384,6 +462,15 @@ Mods:
 - Id: mehni.pickupandhaul
   Name: Pick Up And Haul
   SteamWorkshopId: 1279012058
+- Id: pickupandhaul.zh
+  Name: pick up and haul zh 中文补丁
+  SteamWorkshopId: 2891446654
+- Id: mlie.pawneducation
+  Name: Pawn Education (Continued)
+  SteamWorkshopId: 2296533470
+- Id: rwzh.chinesepack.pawneducation
+  Name: Pawn_Education_zh
+  SteamWorkshopId: 2380908925
 - Id: fed1splay.pawntargetfix
   Name: PawnTargetFix
   SteamWorkshopId: 2014789938
@@ -393,11 +480,11 @@ Mods:
 - Id: rwzh.chinesepack.achtung
   Name: Achtung!_zh
   SteamWorkshopId: 1782765741
-- Id: rh2.bcd.first.aid
+- Id: rh2.bcds.first.aid
   Name: '[RH2] BCD: First Aid'
   SteamWorkshopId: 2563152474
 - Id: zh.rh2bcdfirstaid
-  Name: '[RH2]BCD:First Aid 简繁汉化'
+  Name: '[RH2]BCD:First Aid_zh'
   SteamWorkshopId: 2566595634
 - Id: rh2.cpers.arrest.here
   Name: '[RH2] CPERS: Arrest Here!'
@@ -405,24 +492,21 @@ Mods:
 - Id: zh.rh2cpersarresthere
   Name: '[RH2]CPERS: Arrest Here! 简繁汉化'
   SteamWorkshopId: 2566596115
-- Id: avilmask.commonsense
-  Name: Common Sense
-  SteamWorkshopId: 1561769193
 - Id: roolo.searchanddestroy
   Name: Search and Destroy
   SteamWorkshopId: 1467764609
 - Id: murmur.isid
   Name: Infestations Spawn in Darkness
   SteamWorkshopId: 2017514331
+- Id: crocodil.foodpoisoningcures
+  Name: Food Poisoning Cures
+  SteamWorkshopId: 2856335335
+- Id: zh.crocodil.foodpoisoningcures
+  Name: Food Poisoning Cures_zh
+  SteamWorkshopId: 2857544882
 - Id: gorymoon.closeall
   Name: CloseAll
   SteamWorkshopId: 2018479759
-- Id: mlie.dismisstrader
-  Name: Dismiss Trader (Continued)
-  SteamWorkshopId: 2078518511
-- Id: zephyr.dismisstraderzh
-  Name: Dismiss Trader (Continued)简繁汉化
-  SteamWorkshopId: 2081531370
 - Id: sgc.quests
   Name: Quest Reward Rebalance
   SteamWorkshopId: 2312419897
@@ -432,9 +516,6 @@ Mods:
 - Id: lbmaian.begonemessage
   Name: Begone, Message!
   SteamWorkshopId: 1951637504
-- Id: caravansrestbeforearrival.1trickponyta
-  Name: Caravans Rest Before Arrival
-  SteamWorkshopId: 2571856655
 - Id: dakkpasserida.animareplant
   Name: Replantable Anima Trees
   SteamWorkshopId: 2586765823
@@ -442,14 +523,23 @@ Mods:
   Name: '[L] House Maid Nukos'
   SteamWorkshopId: 1418683071
 - Id: com.github.alandariva.moreplanning
-  Name: More Planning 1.3
+  Name: More Planning [1.4]
   SteamWorkshopId: 2551225702
 - Id: ben.automaticnightowl
   Name: Automatic Night Owl
   SteamWorkshopId: 2056012179
-- Id: xelnigma.psyeltex
-  Name: Psy-Eltex
-  SteamWorkshopId: 2366166093
+- Id: relaxedotter.bettermechanoidloot
+  Name: Better Mechanoid Loot (continued)
+  SteamWorkshopId: 2886997332
+- Id: kikohi.bettergroundpenetratingscanner
+  Name: Better ground-penetrating scanner
+  SteamWorkshopId: 2809972387
+- Id: zh.kikohi.bettergroundpenetratingscanner
+  Name: Better ground-penetrating scanner_zh
+  SteamWorkshopId: 2810420557
+- Id: victor.psyultra
+  Name: Psy Ultra
+  SteamWorkshopId: 2879578025
 - Id: xrushha.craftablebroadshieldcore
   Name: 'Craftable uncraftables: Shield Core'
   SteamWorkshopId: 2198480490
@@ -477,15 +567,15 @@ Mods:
 - Id: murmur.walllight
   Name: Wall Light
   SteamWorkshopId: 1423699208
-- Id: czk.walllight.patch
-  Name: '[CZK] Wall Light - Vanilla Colours Patch'
-  SteamWorkshopId: 2569723772
+- Id: zh.walllight.only
+  Name: Wall Light -- 壁灯 简体汉化包
+  SteamWorkshopId: 2826726307
 - Id: gt.sam.tilledsoil
   Name: Tilled Soil
   SteamWorkshopId: 725747149
 - Id: rimfridge.kv.rw
-  Name: '[KV] RimFridge'
-  SteamWorkshopId: 1180721235
+  Name: RimFridge Updated
+  SteamWorkshopId: 2878183338
 - Id: haplo.miscellaneous.training
   Name: Misc. Training
   SteamWorkshopId: 717575199
@@ -507,12 +597,12 @@ Mods:
 - Id: notfood.mendandrecycle
   Name: MendAndRecycle
   SteamWorkshopId: 735241897
-- Id: bbbbilly.makereinforcedbarrel
-  Name: Make Reinforced Barrel
-  SteamWorkshopId: 2538773133
-- Id: zlj.staticqualityplus
-  Name: Static Quality Plus
-  SteamWorkshopId: 737358776
+- Id: vis.staticquality
+  Name: Static Quality Stripped
+  SteamWorkshopId: 2801204005
+- Id: ratys.madskills
+  Name: Mad Skills
+  SteamWorkshopId: 731111514
 - Id: hatti.qualitybuilder
   Name: QualityBuilder
   SteamWorkshopId: 754637870
@@ -522,15 +612,15 @@ Mods:
 - Id: vat.epoeforked
   Name: Expanded Prosthetics and Organ Engineering - Forked
   SteamWorkshopId: 1949064302
+- Id: rwzh.chinesepack.epoeforked
+  Name: Expanded_Prosthetics_and_Organ_Engineering_Forked_zh
+  SteamWorkshopId: 2021158028
 - Id: vat.epoeforkedroyalty
   Name: 'EPOE-Forked: Royalty DLC expansion'
   SteamWorkshopId: 2008970276
 - Id: rwzh.chinesepack.epoeforkedroyalty
   Name: EPOE-Forked_Royalty_DLC_expansion_zh
   SteamWorkshopId: 2026231230
-- Id: rwzh.chinesepack.epoeforked
-  Name: Expanded_Prosthetics_and_Organ_Engineering_Forked_zh
-  SteamWorkshopId: 2021158028
 - Id: inglix.fasterbiosculptingpod
   Name: Faster Biosculpter Pod
   SteamWorkshopId: 2576257954
@@ -543,8 +633,20 @@ Mods:
 - Id: pzqaks.biosculptingplus.zh
   Name: BioSculptingPlus 简繁汉化包
   SteamWorkshopId: 2619378452
+- Id: eagle0600.dresspatients.1.4
+  Name: Dress Patients (1.4)
+  SteamWorkshopId: 2877763074
+- Id: rwzh.chinesepack.dresspatients
+  Name: Dress_Patients_zh
+  SteamWorkshopId: 2063186733
+- Id: fluffy.fluffybreakdowns
+  Name: Fluffy Breakdowns
+  SteamWorkshopId: 726244033
+- Id: doctorstupid.sofa
+  Name: Literally just a sofa
+  SteamWorkshopId: 2894560149
 - Id: neronix17.embrasures
-  Name: '[O21] Seamless Embrasures'
+  Name: Seamless Embrasures
   SteamWorkshopId: 2290689449
 - Id: neceros.dws.simpleturrets
   Name: Simple Turrets
@@ -555,6 +657,15 @@ Mods:
 - Id: bustedbunny.prisonersarenotswines
   Name: Prisoners Are Not Swines
   SteamWorkshopId: 2613966365
+- Id: witek.mechscanhaultocharger
+  Name: Mechs can haul to charger
+  SteamWorkshopId: 2883113037
+- Id: porio.tunnulerfix
+  Name: Allow Tunnelers To Drill
+  SteamWorkshopId: 2882915775
+- Id: witek.fabricorscanrepairmechs
+  Name: Fabricors can repair mechs
+  SteamWorkshopId: 2886185474
 - Id: ratys.rtfuse
   Name: RT Fuse
   SteamWorkshopId: 728314182
@@ -564,21 +675,21 @@ Mods:
 - Id: rwzh.chinesepack.ratys
   Name: RT_zh_pack
   SteamWorkshopId: 2015185500
-- Id: ghostrolly.rim73
-  Name: Rim73 - Performance and Optimisations
-  SteamWorkshopId: 2573814850
+- Id: mlie.enterhere
+  Name: Enter Here
+  SteamWorkshopId: 2824117092
+- Id: zh.enterhere.only
+  Name: Enter Here -- 客从此进 简繁汉化包
+  SteamWorkshopId: 2826779697
+- Id: velcroboy333.outdoorlighting
+  Name: Outdoor Lighting (continued)
+  SteamWorkshopId: 2888755935
 - Id: taranchuk.performanceoptimizer
   Name: Performance Optimizer
   SteamWorkshopId: 2664723367
-- Id: pzqaks.performanceoptimize.zh
-  Name: Performance Optimizer简体中文汉化
-  SteamWorkshopId: 2668142391
 - Id: krkr.rocketman
   Name: RocketMan - Performance Mod
   SteamWorkshopId: 2479389928
-- Id: dubwise.dubsperformanceanalyzer
+- Id: dubwise.dubsperformanceanalyzer.steam
   Name: Dubs Performance Analyzer
   SteamWorkshopId: 2038874626
-- Id: dubwise.dubsperformanceanalyzer.cntrans
-  Name: Dubs Performance Analyzer性能分析汉化
-  SteamWorkshopId: 2579782618
