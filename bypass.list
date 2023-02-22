@@ -6,6 +6,8 @@
 
 ; https://raw.githubusercontent.com/kn007/patch/master/bypass.list
 
+*.twitch.tv
+*.bose.com
 *.worldofwarships.asia
 *.worldofwarships.jp
 *.wargaming.net

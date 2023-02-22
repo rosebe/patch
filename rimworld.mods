@@ -48,6 +48,12 @@ Mods:
 - Id: madeline.modmismatchformatter
   Name: Better ModMismatch Window
   SteamWorkshopId: 1872244972
+- Id: owlchemist.midsaversaver
+  Name: Mid-saver Saver
+  SteamWorkshopId: 2921585989
+- Id: chinesepackage.owlchemist.midsaversaver
+  Name: Mid-saver Saver_zh
+  SteamWorkshopId: 2924284353
 - Id: peppsen.pmusic
   Name: P-Music
   SteamWorkshopId: 725130005
@@ -60,6 +66,9 @@ Mods:
 - Id: tinygrox.chs.graphicssettings
   Name: Graphics Settings CHS
   SteamWorkshopId: 2888729664
+- Id: kapitanoczywisty.minimallightcontrol
+  Name: Minimal Light Control
+  SteamWorkshopId: 1554307259
 - Id: oskarpotocki.vanillafactionsexpanded.core
   Name: Vanilla Expanded Framework
   SteamWorkshopId: 2023507013
@@ -183,6 +192,9 @@ Mods:
 - Id: zh.m00nl1ght.geologicallandforms
   Name: Geological Landforms_zh
   SteamWorkshopId: 2774968010
+- Id: mlie.savemaps
+  Name: Save Maps (Continued)
+  SteamWorkshopId: 2916523481
 - Id: murmur.threatpointcap
   Name: Threat Point Cap
   SteamWorkshopId: 2380491067
@@ -279,6 +291,9 @@ Mods:
 - Id: qualcolor.zh
   Name: Quality Colors zh 简体中文汉化
   SteamWorkshopId: 2891521968
+- Id: owlchemist.perspectiveores
+  Name: 'Perspective: Ores'
+  SteamWorkshopId: 2923871543
 - Id: owlchemist.simplefx.vapor
   Name: 'Simple FX: Vapor'
   SteamWorkshopId: 2886571275
@@ -294,6 +309,9 @@ Mods:
 - Id: owlchemist.scatteredflames.zh.hc
   Name: Scattered Flames_zh
   SteamWorkshopId: 2711236044
+- Id: telardo.fireworks
+  Name: Fireworks
+  SteamWorkshopId: 2922179297
 - Id: fishbones.daylilyretexture
   Name: I Hate Daylilies
   SteamWorkshopId: 2878142283
@@ -609,6 +627,9 @@ Mods:
 - Id: ben.automaticnightowl
   Name: Automatic Night Owl
   SteamWorkshopId: 2056012179
+- Id: dninemfive.qualitycooldown
+  Name: Quality Cooldown
+  SteamWorkshopId: 1543069597
 - Id: gm.headsetwhelmet
   Name: Mechanitor Headset with Helmet
   SteamWorkshopId: 2881642669
@@ -732,6 +753,9 @@ Mods:
 - Id: bustedbunny.prisonersarenotswines
   Name: Prisoners Are Not Swines
   SteamWorkshopId: 2613966365
+- Id: hobtook.mortaraccuracy
+  Name: Mortar Accuracy
+  SteamWorkshopId: 1729446857
 - Id: doctorstupid.sofa
   Name: Literally just a sofa
   SteamWorkshopId: 2894560149
