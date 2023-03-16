@@ -1,5 +1,6 @@
 # Basic on https://raw.githubusercontent.com/kn007/patch/master/bypass.list
 
+DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,bose.com
 DOMAIN-SUFFIX,worldofwarships.asia
@@ -288,6 +289,7 @@ DOMAIN-SUFFIX,aspnetcdn.com
 DOMAIN-SUFFIX,netlify.app
 DOMAIN-SUFFIX,netlify.com
 DOMAIN-SUFFIX,healthchecks.io
+DOMAIN-SUFFIX,mgstage.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleapis.com
