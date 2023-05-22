@@ -48,6 +48,9 @@ Mods:
 - Id: chinesepackage.owlchemist.midsaversaver
   Name: Mid-saver Saver_zh
   SteamWorkshopId: 2924284353
+- Id: kenx00x.xenotypeandideologybuttonstitlescreen
+  Name: Xenotype And Ideology Buttons TitleScreen
+  SteamWorkshopId: 2973951983
 - Id: peppsen.pmusic
   Name: P-Music
   SteamWorkshopId: 725130005
@@ -165,6 +168,9 @@ Mods:
 - Id: boundir.newgameplus
   Name: New Game Plus
   SteamWorkshopId: 2909126210
+- Id: zh.boundir.newgameplus
+  Name: New Game Plus_zh
+  SteamWorkshopId: 2921894258
 - Id: sarg.smartspeed
   Name: Smart Speed
   SteamWorkshopId: 1504723424
@@ -213,6 +219,9 @@ Mods:
 - Id: owlchemist.powertab
   Name: Power Tab 2
   SteamWorkshopId: 2952716728
+- Id: hanami.chinesepack.owlchemist.powertab
+  Name: Power Tab 2个人汉化
+  SteamWorkshopId: 2972581353
 - Id: jaxe.bubbles
   Name: Interaction Bubbles
   SteamWorkshopId: 1516158345
@@ -249,6 +258,9 @@ Mods:
 - Id: mobius.royaltytweaks
   Name: Royalty Tweaks
   SteamWorkshopId: 2018384424
+- Id: insertkey.buildertweaks
+  Name: BuilderTweaks
+  SteamWorkshopId: 1600554794
 - Id: enterprise.changeoperationsuccessratelimit
   Name: 修改手术成功率上限-Change Operation Success Rate Limit
   SteamWorkshopId: 2927674331
@@ -264,6 +276,12 @@ Mods:
 - Id: vesper.notmyfault
   Name: Not My Fault
   SteamWorkshopId: 2870045856
+- Id: forevermarried.mod
+  Name: "'Til Death Do Them Apart"
+  SteamWorkshopId: 2975068661
+- Id: cedaro.nohopelessromance
+  Name: No Hopeless Romance
+  SteamWorkshopId: 2964282061
 - Id: amch.needbaroverflow
   Name: Need Bar Overflow
   SteamWorkshopId: 2566316158
@@ -402,24 +420,12 @@ Mods:
 - Id: rwzh.chinesepack.cameraplus
   Name: Camera+_zh
   SteamWorkshopId: 1783453942
-- Id: nomaxbills.kv.rw
-  Name: '[KV] No Max Bills'
-  SteamWorkshopId: 1588831229
-- Id: falconne.bwm
-  Name: Better Workbench Management
-  SteamWorkshopId: 935982361
 - Id: fluffy.followme
   Name: Follow Me
   SteamWorkshopId: 715759739
 - Id: com.github.alandariva.moreplanning
   Name: More Planning [1.4]
   SteamWorkshopId: 2551225702
-- Id: fluffy.blueprints
-  Name: Blueprints
-  SteamWorkshopId: 708455313
-- Id: rwzh.leafzxg.blueprints
-  Name: Blueprints_zh
-  SteamWorkshopId: 2905109743
 - Id: unlimitedhugs.allowtool
   Name: Allow Tool
   SteamWorkshopId: 761421485
@@ -429,6 +435,12 @@ Mods:
 - Id: rwzh.chinesepack.unlimitedhugs
   Name: UnlimitedHugs_zh_pack
   SteamWorkshopId: 2016725307
+- Id: fluffy.blueprints
+  Name: Blueprints
+  SteamWorkshopId: 708455313
+- Id: rwzh.leafzxg.blueprints
+  Name: Blueprints_zh
+  SteamWorkshopId: 2905109743
 - Id: navyseal5.moreharvestdesignators
   Name: More Harvest Designators!
   SteamWorkshopId: 1541250497
@@ -474,9 +486,21 @@ Mods:
 - Id: automatic.prisonerbedsetowner
   Name: Set Owner for Prisoner Beds
   SteamWorkshopId: 2053931388
+- Id: kathanon.dropsome
+  Name: Drop Some
+  SteamWorkshopId: 2823342374
+- Id: mlgm.dropsome.zh
+  Name: Drop Some zh 丢弃数量可选
+  SteamWorkshopId: 2974880246
 - Id: kb.dropinventory
   Name: Drop All Inventory
   SteamWorkshopId: 2882490442
+- Id: mlgm.dropinventory.zh
+  Name: Drop All Inventory_zh一键卸载库存
+  SteamWorkshopId: 2974881350
+- Id: velc.itemlist
+  Name: Pawn's Items List
+  SteamWorkshopId: 1507341718
 - Id: owlchemist.doorclearance
   Name: Door Clearance
   SteamWorkshopId: 2965544918
@@ -495,9 +519,6 @@ Mods:
 - Id: tammybee.cutplantsbeforebuilding
   Name: Cut plants before building
   SteamWorkshopId: 1539025677
-- Id: cedaro.nohopelessromance
-  Name: No Hopeless Romance
-  SteamWorkshopId: 2964282061
 - Id: fluffy.medicaltab
   Name: Medical Tab
   SteamWorkshopId: 715565817
@@ -537,6 +558,9 @@ Mods:
 - Id: aelanna.cleaningspeed
   Name: Cleaning Speed
   SteamWorkshopId: 2748222814
+- Id: zh.aelanna.cleaningspeed
+  Name: Cleaning Speed-汉化
+  SteamWorkshopId: 2748802839
 - Id: seekiworksmod.no11
   Name: Chop Wood with Other Skills
   SteamWorkshopId: 2811154414
@@ -549,12 +573,6 @@ Mods:
 - Id: puremj.mjrimmods.whileyouarenearby
   Name: While You Are Nearby
   SteamWorkshopId: 2784585275
-- Id: mehni.pickupandhaul
-  Name: Pick Up And Haul
-  SteamWorkshopId: 1279012058
-- Id: pickupandhaul.zh
-  Name: pick up and haul zh 中文补丁
-  SteamWorkshopId: 2891446654
 - Id: codeoptimist.jobsofopportunity
   Name: While You're Up / PUAH+
   SteamWorkshopId: 2034960453
@@ -660,6 +678,9 @@ Mods:
 - Id: scherub.stonecuttingextended
   Name: Stonecutting Extended
   SteamWorkshopId: 2571676542
+- Id: lanking.syntheticchips
+  Name: Lanking's Synthetic Chips
+  SteamWorkshopId: 2971197280
 - Id: winds.bettermechanoidloot
   Name: Better Mechanoid Loot (重写)
   SteamWorkshopId: 2963175073
@@ -738,6 +759,9 @@ Mods:
 - Id: rwzh.chinesepack.qualitybuilder
   Name: QualityBuilder_zh
   SteamWorkshopId: 1783553525
+- Id: jgh.qualitybuilder
+  Name: QualityBuilder retexture
+  SteamWorkshopId: 2638388641
 - Id: vat.epoeforked
   Name: Expanded Prosthetics and Organ Engineering - Forked
   SteamWorkshopId: 1949064302
@@ -750,6 +774,12 @@ Mods:
 - Id: rwzh.leafzxg.epoeforkedroyalty
   Name: EPOE-Forked_Royalty_DLC_expansion_zh
   SteamWorkshopId: 2026231230
+- Id: iexist.biotech.morebandwidth
+  Name: Bandwidth Enhancer
+  SteamWorkshopId: 2888505789
+- Id: zh.iexist.biotech.morebandwidth
+  Name: Bandwidth Enhancer-汉化
+  SteamWorkshopId: 2889649472
 - Id: inglix.fasterbiosculptingpod
   Name: Faster Biosculpter Pod
   SteamWorkshopId: 2576257954
@@ -801,12 +831,21 @@ Mods:
 - Id: zh.enterhere.only
   Name: Enter Here -- 客从此进 简繁汉化包
   SteamWorkshopId: 2826779697
-- Id: frozensnowfox.nodefaultshelfstorage
-  Name: '[FSF] No Default Shelf Storage'
-  SteamWorkshopId: 945085502
 - Id: bbbbilly.makereinforcedbarrel
   Name: Make Reinforced Barrel
   SteamWorkshopId: 2538773133
+- Id: frozensnowfox.nodefaultshelfstorage
+  Name: '[FSF] No Default Shelf Storage'
+  SteamWorkshopId: 945085502
+- Id: nomaxbills.kv.rw
+  Name: '[KV] No Max Bills'
+  SteamWorkshopId: 1588831229
+- Id: falconne.bwm
+  Name: Better Workbench Management
+  SteamWorkshopId: 935982361
+- Id: maarx.assignedworkbenches
+  Name: AssignedWorkbenches
+  SteamWorkshopId: 2973942644
 - Id: neronix17.embrasures
   Name: Seamless Embrasures
   SteamWorkshopId: 2290689449
