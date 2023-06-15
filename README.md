@@ -2,21 +2,38 @@
 
 ## Nginx
 
-### nginx.patch
+### nginx_dynamic_tls_records.patch
+* Add Dynamic TLS Record Support.
+
+Require: Nginx 1.25.1
+
+Test pass: 1.25.1
+
+### use_openssl_md5_sha1.patch
+* Use the OpenSSL library instead of the Nginx original function.
+* Repack it because "patch unexpectedly ends in middle of line".
+    - Thanks [@CarterLi](https://github.com/kn007/patch/issues/5)
+
+Test pass: 1.25.1
+
+### Enable_BoringSSL_OCSP.patch
+* For BoringSSL support OCSP stapling.
+    - Using "ssl_stapling_file" to support.
+    - Only "ssl_stapling_file" with single cert is supported.
+    - Auto-rebuild OCSP stapling file with shell and atd(at cron), you can read this [article](https://kn007.net/topics/let-nginx-support-ocsp-stapling-when-using-boringssl/)(Maybe you need a translation tool).
+    - Thanks [@CarterLi](https://github.com/kn007/patch/issues/4).
+
+Test pass: 1.23.4
+
+### nginx.patch (Discontinued)
 * Add HTTP2 HPACK Encoding Support.
 * Add Dynamic TLS Record Support.
 
-Require: Nginx 1.25.0 or later
+Require: Nginx 1.25.0 (this version only)
 
 Test pass: 1.25.0
 
-### nginx_for_1.23.4.patch
-* Add HTTP2 HPACK Encoding Support.
-* Add Dynamic TLS Record Support.
-
-Require: Nginx version below 1.25.0
-
-Test pass: 1.23.4
+Since `Nginx` 1.25.1, HPACK encoding will not support because the HTTP/2 server push support has been removed.
 
 ### nginx_with_quic.patch (Discontinued)
 * Add HTTP3(QUIC) Support.
@@ -30,19 +47,11 @@ Test pass: 1.23.3 with [cloudflare/quiche@c9311a1](https://github.com/cloudflare
 
 <b>Check your modules when build failed.</b>
 
-### use_openssl_md5_sha1.patch
-* Use the OpenSSL library instead of the Nginx original function.
-* Repack it because "patch unexpectedly ends in middle of line".
-    - Thanks [@CarterLi](https://github.com/kn007/patch/issues/5)
+### nginx_for_1.23.4.patch (Deprecated)
+* Add HTTP2 HPACK Encoding Support.
+* Add Dynamic TLS Record Support.
 
-Test pass: 1.25.0
-
-### Enable_BoringSSL_OCSP.patch
-* For BoringSSL support OCSP stapling.
-    - Using "ssl_stapling_file" to support.
-    - Only "ssl_stapling_file" with single cert is supported.
-    - Auto-rebuild OCSP stapling file with shell and atd(at cron), you can read this [article](https://kn007.net/topics/let-nginx-support-ocsp-stapling-when-using-boringssl/)(Maybe you need a translation tool).
-    - Thanks [@CarterLi](https://github.com/kn007/patch/issues/4).
+Require: Nginx version below 1.25.0
 
 Test pass: 1.23.4
 
@@ -86,7 +95,7 @@ Test pass: 1.17.9 with [cloudflare/quiche@9a8b3b](https://github.com/cloudflare/
 * Add BoringSSL's Equal Preference Support.
 * Add ChaCha20-Poly1305 Draft Version Support.
 
-Test pass: 1.1.1s
+Test pass: 1.1.1u
 
 ### ffmpeg-let-rtmp-flv-support-hevc-h265-opus.patch
 * FLV/RTMP Extensions For FFmpeg.
